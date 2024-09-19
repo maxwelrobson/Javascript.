@@ -18,7 +18,7 @@ function contar() {
         }
 
         if (i < f) { //Se o valor de Inicio for menor que o do Final
-            for (let c = i; c <= f; c += p) { //Para 
+            for (let c = i; c <= f; c += p) { //O for foi criado com a adição de uma variável "c"; (Para seguir com esse "for" o valor de c inicia sendo igual o valor de Inicio, Se o valor de c for menor ou igual ao valor do Final executa o comando abaixo e depois volta adicionando mais um ao valor de c)
                 res.innerHTML += `${c} \u{1F449}`
             }
             
